@@ -14,15 +14,6 @@ body {
   overflow: hidden;
   display: block;
 }
-.contactPic img {
-  width: 100vmax;
-}
-.contactPic {
-  width: 100%;
-  height: 20vh;
-  overflow: hidden;
-  display: block;
-}
 h1 {
   color: rgb(187, 187, 173);
   background-color: rgb(224, 125, 158);
@@ -66,6 +57,9 @@ h3 {
   padding: 1px;
   margin-right: 10px;
 }
+.listStyle li{
+    list-style: none;
+}
 nav a:hover {
   color: brown;
   font-weight: bold;
@@ -82,6 +76,17 @@ div a:hover {
 div a:active {
   color: rgb(112, 190, 55);
 }
+/* code for contact_us.html */
+.contactPic img {
+    width: 100vmax;
+  }
+  .contactPic {
+    width: 100%;
+    height: 20vh;
+    overflow: hidden;
+    display: block;
+    border: 1px solid rgb(252, 168, 168);
+  }
 #dropme{
     color: rgb(233, 136, 233);
 }
@@ -90,4 +95,7 @@ div a:active {
 }
 #dropme:active{
     color: yellow;
+}
+li{
+    list-style: circle;
 }
