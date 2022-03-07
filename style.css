@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.3rem;
+}
+.headPic img {
+  width: 100vmax;
+}
+.headPic {
+  border: 1px solid rgb(196, 158, 235);
+  width: 100%;
+  height: 20vh;
+  overflow: hidden;
+  display: block;
+}
+.contactPic img {
+  width: 100vmax;
+}
+.contactPic {
+  width: 100%;
+  height: 20vh;
+  overflow: hidden;
+  display: block;
+}
+h1 {
+  color: rgb(187, 187, 173);
+  background-color: rgb(224, 125, 158);
+}
+h2 {
+  color: rgb(208, 61, 208);
+  background-color: rgb(223, 219, 219);
+}
+p:nth-of-type(2) {
+  background-color: rgb(231, 162, 231);
+}
+h3 {
+  background-color: rgb(231, 250, 125);
+}
+.subtopic:hover {
+  color: rgb(223, 48, 48);
+  font-weight: bold;
+}
+.treat01 img,
+.treat02 img,
+.treat03 img {
+  width: 200px;
+  height: 170px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.treat01 img {
+  float: left;
+  border: 5px solid yellow;
+  padding: 1px;
+  margin-right: 10px;
+}
+.treat02 img {
+  float: right;
+  border: 5px solid rgb(94, 212, 228);
+  padding: 1px;
+}
+.treat03 img {
+  float: left;
+  border: 5px solid rgb(236, 87, 179);
+  padding: 1px;
+  margin-right: 10px;
+}
+nav a:hover {
+  color: brown;
+  font-weight: bold;
+}
+nav a:active {
+  color: greenyellow;
+}
+div a {
+  color: rgb(40, 175, 216);
+}
+div a:hover {
+  color: rgb(105, 33, 172);
+}
+div a:active {
+  color: rgb(112, 190, 55);
+}
+#dropme{
+    color: rgb(233, 136, 233);
+}
+#dropme:hover{
+    color: green;
+}
+#dropme:active{
+    color: yellow;
+}
